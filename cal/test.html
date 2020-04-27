@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pruebas</title>
+
+	<script type='text/javascript' src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+		{
+		
+		$("#boton").click(function () {	 
+			debugger;
+			alert($('input:radio[name=edad]:checked').val());
+			$("#formulario").submit();
+			});
+		 });
+</script>
+
+</head>
+<body>
+
+	<h1>fwefwe</h1>
+
+
+	<form name="formulario" id="formulario"  method="POST">
+
+		<input type="radio"  id="edad12" value="20"> 20<br>
+
+
+	<input type="radio" name="edad" id="edad1" value="20"> 20<br>
+	<input type="radio" name="edad2" id="e2" value="30"> 30<br>
+	<input type="radio" name="edad3" id="e3" value="40"> 40 
+	<br><br>
+	<input type="button" id="boton" value="Enviar">
+</form>
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta charset="UTF-8">
+    <title>Calendario</title>
+
+    
+
+    <!-- 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    -->
+   
+
+    <script type="text/javascript">
+        function actionButonCrear1 (){
+            alert("Prueba de boton 1");
+        }
+        function actionButonCrear2 (){
+            alert("Prueba de boton 2");
+        }
+        function actionButonCrear3 (){
+            alert("Prueba de boton 3");
+        }
+        
+    </script>
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+    
+   
+
+
+    <div class="container">
+        <p>
+            <h2>Generador de Ozono</h2><small>v1.0</small></p>
+
+
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <h4 align="center">Alarma 1</h4>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="monday" id="monday1" value="lunes">
+                    <label class="form-check-label" for="monday1">Lunes</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="tuesday" id="tuesday1" value="martes">
+                    <label class="form-check-label" for="tuesday_1">Martes</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="wednesday" id="wednesday1" value="miercoles">
+                    <label class="form-check-label" for="wednesday_1">Miércoles</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="thursday" id="thursday1" value="jueves">
+                    <label class="form-check-label" for="thursday_1">Jueves</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="friday" id="friday_1" value="viernes">
+                    <label class="form-check-label" for="friday_1">Viernes</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="saturday" id="saturday_1" value="sabado">
+                    <label class="form-check-label" for="saturday_1">Sábado</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sunday" id="sunday_1" value="domingo">
+                    <label class="form-check-label" for="sunday_1">Domingo</label>
+                </div>
+                <br>
+
+                <label for="exampleFormControlInput1">
+                    Hora de inicio
+                </label>
+                <input type="time" name="horaInicio" id="hora_inicio">
+                <br>
+                 <label>Hora de finalización</label>
+                 <input type="time" name="horaFin" id="hora_fin">
+                <hr>
+              
+                <br>
+                <button onclick="actionButonCrear1()" class="btn btn-success btn-lg btn-block">Crear</button>
+                <br>
+                
+
+            </div>
+
+            <hr>
+
+            <div class="col-md-6">
+                <br>
+                <h4 align="center">Alarma 2</h4>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" name="monday_2" type="radio" id="inlineRadio1_2" value="lunes">
+                    <label class="form-check-label" for="inlineRadio1">Lunes</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" name="tuesday_2" type="radio" id="inlineRadio2_2" value="martes">
+                    <label class="form-check-label" for="inlineRadio2">Martes</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" name="wednesday_2" type="radio" id="inlineRadio3_2" value="miercoles">
+                    <label class="form-check-label" for="inlineRadio3">Miércoles</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" name="thursday_2" type="radio" id="inlineRadio4_2" value="jueves">
+                    <label class="form-check-label" for="inlineRadio4">Jueves</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" name="friday_2" type="radio" id="inlineRadio5_2" value="viernes">
+                    <label class="form-check-label" for="inlineRadio5">Viernes</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" name="saturday_2" type="radio" id="inlineRadio6_2" value="sabado">
+                    <label class="form-check-label" for="inlineRadio6">Sábado</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" name="sunday_2" type="radio" id="inlineRadio7_2" value="domingo">
+                    <label class="form-check-label" for="inlineRadio7">Domingo</label>
+                </div>
+
+                <br>
+
+                <label for="hora_alarma2">
+                    Hora de inicio
+                </label>
+                <input type="time" id="hora_inicio_2">
+                <br>
+                <label>Hora de finalización</label>
+                <input type="time" id="hora_fin_2">
+                <br>
+                <hr>
+                <button onclick="actionButonCrear2()" class="btn btn-success btn-lg btn-block">Crear</button>
+
+            </div>
+            <hr>
+            <div class="col-md-6">
+                <br>
+                <h4 align="center">Alarma 3</h4>
+
+                
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="monday_3" id="inlineRadio1_3" value="lunes">
+                        <label class="form-check-label" for="inlineRadio1_3">Lunes</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="tuesday_3" id="inlineRadio2_3" value="martes">
+                        <label class="form-check-label" for="inlineRadio2_3">Martes</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" name="wednesday_3" type="radio" id="inlineRadio3_3" value="miercoles">
+                        <label class="form-check-label" for="inlineRadio3_3">Miércoles</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" name="thursday_3" type="radio" id="inlineRadio4_3" value="jueves">
+                        <label class="form-check-label" for="inlineRadio4_3">Jueves</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" name="friday_3" type="radio" id="inlineRadio5_3" value="viernes">
+                        <label class="form-check-label" for="inlineRadio5_3">Viernes</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" name="saturday_3" type="radio" id="inlineRadio6_3" value="sabado">
+                        <label class="form-check-label" for="inlineRadio6_3">Sábado</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" name="sunday_3" type="radio" id="inlineRadio7_3" value="domingo">
+                        <label class="form-check-label" for="inlineRadio7_3">Domingo</label>
+                    </div>
+
+                    <br>
+
+                    <label >
+                        Hora de inicio
+                    </label>
+                    <input type="time"  id="hora_inicio_3">
+                        <label>Hora de finalización</label>
+                        <input type="time" id="hora_fin_3">
+                    <br>
+                    <hr>
+                    <button onclick="actionButonCrear3()"  class="btn btn-success btn-lg btn-block">Crear</button>
+
+              
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
